@@ -2,7 +2,7 @@
 
 A portfolio single page application using React and Material UI
 
-### [See the site live!](https://materialui-portfolio.netlify.app/)
+### [See the site live!](hchen.netlify.app)
 
 
 #### Stack and Dependencies
