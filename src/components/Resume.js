@@ -114,14 +114,14 @@ const Resume = () => {
   return (
     <Box component="header" className={classes.mainContainer}>
       <Typography variant="h4" align="center" className={classes.heading}>
-        Working Experience
+        EXPERIENCE & EDUCATION
       </Typography>
       <Box component="div" className={classes.timeLine}>
         <Typography
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2013
+          2020
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -129,10 +129,10 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            web design
+            Full Stack Web Developer
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Groundcycle
           </Typography>
           <Typography
             variant="subtitle1"
@@ -149,7 +149,7 @@ const Resume = () => {
           variant="h2"
           className={`${classes.timeLineYear} ${classes.timeLineItem}`}
         >
-          2014
+          2019
         </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
@@ -157,20 +157,17 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            html & css
+            Web Development
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Columbia University
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Graduated from a coding bootcamp at Columbia University with a certificate in Full Stack Web Development.
           </Typography>
         </Box>
         <Typography
@@ -185,10 +182,10 @@ const Resume = () => {
             align="center"
             className={classes.subHeading}
           >
-            Fullstack Javascript
+            Advanced Repair Technician
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            Geek Squad
           </Typography>
           <Typography
             variant="subtitle1"
@@ -201,32 +198,23 @@ const Resume = () => {
             repudiandae, rerum necessitatibus nisi mollitia.
           </Typography>
         </Box>
-        <Typography
-          variant="h2"
-          className={`${classes.timeLineYear} ${classes.timeLineItem}`}
-        >
-          2017
-        </Typography>
         <Box component="div" className={classes.timeLineItem}>
           <Typography
             variant="h5"
             align="center"
             className={classes.subHeading}
           >
-            Django & React
+            Bachelor of Science
           </Typography>
           <Typography variant="body1" align="center" className={classes.body1}>
-            company name where worked
+            St. John's University
           </Typography>
           <Typography
             variant="subtitle1"
             align="center"
             className={classes.subtitle1}
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero quas
-            ipsa, laudantium totam perferendis possimus voluptatibus tenetur.
-            Quasi voluptatibus, nam vitae eaque ad, officia laboriosam
-            repudiandae, rerum necessitatibus nisi mollitia.
+            Graduated with top honors from St. John's University with a Bachelor of Science Degree in Computer Science.
           </Typography>
         </Box>
       </Box>
