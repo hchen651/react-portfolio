@@ -96,6 +96,7 @@ const Contact = () => {
             fullWidth={true}
             endIcon={<Send />}
             className={classes.button}
+            href="/contact"
           >
             Contact Me
           </Button>
