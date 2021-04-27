@@ -10,12 +10,12 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/pern-stack.jpg";
-import project2 from "../images/mern-stack.jpg";
-import project3 from "../images/javascript-fullstack.jpg";
-import project4 from "../images/mern-stack.jpg";
-import project5 from "../images/react-redux.jpg";
-import project6 from "../images/react.png";
+import pernimg from "../images/pern-stack.jpg";
+import mernimg from "../images/mern-stack.jpg";
+import htmlcssjsimg from "../images/html-css-javascript-lg.jpg";
+import reactimg from "../images/react-redux.jpg";
+import jsfullstackimg from "../images/javascript-fullstack.jpg";
+
 
 const useStyles = makeStyles((theme) => ({
   mainContainer: {
@@ -31,62 +31,58 @@ const useStyles = makeStyles((theme) => ({
 const projects = [
   {
     name: "Groundcycle v2",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
-    consequatur magni quod nesciunt necessitatibus molestiae non
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus
-    iste alias sunt veritatis nisi dolores!`,
-    image: project1,
+    description: `(Current Work in Progress) A complete redesign and overhaul of Groundcycle version 1.
+    The site structure is being completely redesigned with the MaterialUI framework and the original mongoDB
+    database is being redone in PostgreSQL.
+    This is planned to be the main company site. (Private Company Repository)`,
+    image: pernimg,
     github: "",
     live: "https://groundcycle.herokuapp.com/",
   },
   {
     name: "Groundcycle v1",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project2,
+    description: `A website built for a composting service startup with hundreds of customers. The website
+    was built from the ground up with MongoDB, Express, React, Node, and Bootstrap.
+    (Private Company Repository)`,
+    image: mernimg,
     github: "",
     live: "https://groundcycle-v1.herokuapp.com/",
   },
   {
-    name: "Project 3",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project3,
-    github: "",
-    live: "",
+    name: "Questgiver",
+    description: `An app in which you can search for your favorite video games and get suggestions for
+    related games based on similarities such as genre and gameplay mechanics. This is a pure HTML/CSS/Javascript app.
+    The app uses the IGDB and GiantBomb APIs to fetch game data.`,
+    image: htmlcssjsimg,
+    github: "https://github.com/hchen651/questgiver",
+    live: "https://hchen651.github.io/questgiver/",
   },
   {
-    name: "Project 4",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project4,
-    github: "",
-    live: "",
+    name: "Imprint",
+    description: `An app which can basically be described as a digital rolodex. Built on the MERN stack, the objective
+    for this app is to allow users to sign up, scan a business card, then have the details of the card automatically saved
+    to their collection of cards. The app uses the Google Vision OCR API to detect text on a card. The OCR feature is currently
+    disabled due to deprecated packages that need to be updated.`,
+    image: mernimg,
+    github: "https://github.com/hchen651/app-project-3",
+    live: "https://project-imprint.herokuapp.com/",
   },
   {
-    name: "Project 5",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project5,
-    github: "",
-    live: "",
+    name: "Tosser",
+    description: `An app built to help people identify recyclables and prevent cross-contamination. Features include a 
+    camera feature which uses a machine learning API to detect objects. We then identify and classify the object to inform
+    the user whether or not it is recyclable, as well as where and how it can be recycled. This app was built with HTML, CSS, 
+    Javascript, MySQL, and Firebase.`,
+    image: jsfullstackimg,
+    github: "https://github.com/ericdahan8/Project2",
+    live: "http://project-tosser.herokuapp.com/",
   },
   {
-    name: "Project 6",
-    description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
-    consequatur magni quod nesciunt necessitatibus molestiae non\
-    eligendi, magnam est aliquam recusandae? Magnam soluta minus\
-    iste alias sunt veritatis nisi dolores!`,
-    image: project6,
-    github: "",
+    name: "News Scraper",
+    description: `A web scraper that scrapes a website for articles and displays it in a simple format without all the ads, images, 
+    and extra frills. Built on React.`,
+    image: reactimg,
+    github: "https://github.com/hchen651/web-scraper",
     live: "",
   },
 ];

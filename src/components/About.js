@@ -22,7 +22,6 @@ const useStyles = makeStyles((theme) => ({
     subtitle: {
         color: "white",
         textShadow: "1px 0px 30px rgba(0, 0, 0, 1)",
-
     },
     typedContainer: {
         position: "absolute",
@@ -32,6 +31,7 @@ const useStyles = makeStyles((theme) => ({
         width: "80vw",
         textAlign: "center",
         zIndex: 1,
+        backgroundColor: "#00000050",
     },
 }));
 
@@ -59,8 +59,6 @@ const Header = () => {
             <IconButton aria-label="GitHub" href="https://www.linkedin.com/in/hchen651/">
                 <LinkedInIcon />
             </IconButton>
-
-
         </Box>
     );
 };
