@@ -10,7 +10,7 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/html-css-javascript-lg.jpg";
+import project1 from "../images/mern-stack.jpg";
 import project2 from "../images/html-css-javascript.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
 import project4 from "../images/mern-stack.jpg";
@@ -30,20 +30,24 @@ const useStyles = makeStyles((theme) => ({
 
 const projects = [
   {
-    name: "Project 1",
+    name: "Groundcycle v2",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
     consequatur magni quod nesciunt necessitatibus molestiae non
     eligendi, magnam est aliquam recusandae? Magnam soluta minus
     iste alias sunt veritatis nisi dolores!`,
     image: project1,
+    github: "/",
+    live: "/",
   },
   {
-    name: "Project 2",
+    name: "Groundcycle v1",
     description: `Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis\
     consequatur magni quod nesciunt necessitatibus molestiae non\
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project2,
+    github: "",
+    live: "",
   },
   {
     name: "Project 3",
@@ -52,6 +56,8 @@ const projects = [
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project3,
+    github: "",
+    live: "",
   },
   {
     name: "Project 4",
@@ -60,6 +66,8 @@ const projects = [
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project4,
+    github: "",
+    live: "",
   },
   {
     name: "Project 5",
@@ -68,6 +76,8 @@ const projects = [
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project5,
+    github: "",
+    live: "",
   },
   {
     name: "Project 6",
@@ -76,6 +86,8 @@ const projects = [
     eligendi, magnam est aliquam recusandae? Magnam soluta minus\
     iste alias sunt veritatis nisi dolores!`,
     image: project6,
+    github: "",
+    live: "",
   },
 ];
 
@@ -105,10 +117,10 @@ const Portfolio = () => {
                 </CardContent>
               </CardActionArea>
               <CardActions>
-                <Button size="small" color="primary">
-                  Share
+                <Button size="small" color="primary" href={project.github}>
+                  View Code
                 </Button>
-                <Button size="small" color="primary">
+                <Button size="small" color="primary" href={project.live}>
                   Live Demo
                 </Button>
               </CardActions>

@@ -92,7 +92,7 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   heading: {
-    color: "tomato",
+    color: "tan",
     padding: "3rem 0",
     textTransform: "uppercase",
   },

@@ -6,13 +6,10 @@ import { makeStyles } from "@material-ui/core/styles";
 import Box from "@material-ui/core/Box";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
-import Menu from "@material-ui/core/Menu";
-import MenuItem from "@material-ui/core/MenuItem";
 import Drawer from "@material-ui/core/Drawer";
 import List from "@material-ui/core/List";
 import ListItem from "@material-ui/core/ListItem";
 import ListItemText from "@material-ui/core/ListItemText";
-import Divider from "@material-ui/core/Divider";
 import Typography from "@material-ui/core/Typography";
 import Button from "@material-ui/core/Button";
 import IconButton from "@material-ui/core/IconButton";
@@ -48,10 +45,8 @@ const useStyles = makeStyles((theme) => ({
     underlineSpan: {
         color: 'tan',
         '&:hover, &:focus, &:active': {
-            backgroundRepeat: "repeat-x",
-            backgroundImage: "url(./nav-squiggle.svg)",
-            backgroundPosition: "0 1.06em",
-            backgroundSize: "28px 9px",
+            background:'grey',
+            color: 'white',
         }
     },
 }))
@@ -98,58 +93,35 @@ export default function NavbarMain() {
             </Toolbar>
 
             <List>
-                <ListItemLink href="/service-produce">
+                <ListItemLink href="/about">
                     <ListItemText disableTypography>
                         <Typography variant="h6" color="textPrimary">
-                            Produce & Compost
+                            About
                         </Typography>
                     </ListItemText>
                 </ListItemLink>
-                <ListItemLink href="/service-compost">
+                <ListItemLink href="/portfolio">
                     <ListItemText disableTypography>
                         <Typography variant="h6" color="textPrimary">
-                            Compost Only
+                            Portfolio
                         </Typography>
                     </ListItemText>
                 </ListItemLink>
-                <ListItemLink href="/our-locations">
+                <ListItemLink href="/resume">
                     <ListItemText disableTypography>
                         <Typography variant="h6" color="textPrimary">
-                            Our Locations
+                            Resume
                         </Typography>
                     </ListItemText>
                 </ListItemLink>
-                <ListItemLink href="/how-it-works">
+                <ListItemLink href="/contact">
                     <ListItemText disableTypography>
                         <Typography variant="h6" color="textPrimary">
-                            How It Works
-                        </Typography>
-                    </ListItemText>
-                </ListItemLink>
-            </List>
-            <Divider variant="middle" />
-            <List>
-                <ListItemLink href="/our-story">
-                    <ListItemText disableTypography>
-                        <Typography variant="h6" color="textPrimary">
-                            Our Story
-                        </Typography>
-                    </ListItemText>
-                </ListItemLink>
-                <ListItemLink href="/donate">
-                    <ListItemText disableTypography>
-                        <Typography variant="h6" color="textPrimary">
-                            Donate
+                            Contact
                         </Typography>
                     </ListItemText>
                 </ListItemLink>
             </List>
-            <Divider variant="middle" />
-            <Box align="center" mt={2}>
-                <Button href="/login" color="blue">
-                    Log in
-                </Button>
-            </Box>
         </Drawer>
     );
 
