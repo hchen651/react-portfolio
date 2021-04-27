@@ -10,8 +10,8 @@ import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
 import Typography from "@material-ui/core/Typography";
 
-import project1 from "../images/mern-stack.jpg";
-import project2 from "../images/html-css-javascript.jpg";
+import project1 from "../images/pern-stack.jpg";
+import project2 from "../images/mern-stack.jpg";
 import project3 from "../images/javascript-fullstack.jpg";
 import project4 from "../images/mern-stack.jpg";
 import project5 from "../images/react-redux.jpg";
@@ -36,8 +36,8 @@ const projects = [
     eligendi, magnam est aliquam recusandae? Magnam soluta minus
     iste alias sunt veritatis nisi dolores!`,
     image: project1,
-    github: "/",
-    live: "/",
+    github: "",
+    live: "https://groundcycle.herokuapp.com/",
   },
   {
     name: "Groundcycle v1",
@@ -47,7 +47,7 @@ const projects = [
     iste alias sunt veritatis nisi dolores!`,
     image: project2,
     github: "",
-    live: "",
+    live: "https://groundcycle-v1.herokuapp.com/",
   },
   {
     name: "Project 3",
